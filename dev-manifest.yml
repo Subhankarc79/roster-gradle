@@ -1,0 +1,13 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    instance: 1
+    memory: 1G
+    name: roster
+    #path: "C:\\PCF\\roster.jar"
+    #random-route: true
+    services: 
+      - sc_db_mysql
+      - SC_CF_LOG_DRAIN
+    timeout: 180
