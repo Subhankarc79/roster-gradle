@@ -7,7 +7,7 @@ security:
     enabled: false
 spring: 
   application: 
-    name: company
+    name: roster
   cloud: 
     config: 
       uri: ${vcap.services.my_config_server_svc.credentials.url}
